@@ -99,13 +99,19 @@ main button {
 }
 
 main button:hover {
-    transform: rotate(360deg) scale(1.2);
     box-shadow: 0 0 20px 5px #DFD8C8;
+    transform: scale(1.2);
+}
+
+main button:active i {
+    transform: rotate(-360deg);
+    transition:  0s;
 }
 
 main button i {
     height: auto;
     font-size: 25px;
+    transition: all 0.3s ease-in;
 }
 
 footer {
@@ -113,4 +119,15 @@ footer {
     color: #DFD8C8;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+}
+
+footer a{
+    color: #3CCF4E;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover{
+    color: #DFD8C8;
+    text-decoration: underline 1px;
 }
