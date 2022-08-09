@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #395B64;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #DFD8C8;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+main .content {
+    background-color: #CABFAB;
+    width: 550px;
+    height: 375px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    border-radius: 30px;
+}
+
+main .content .title {
+    margin: 0px 0px 20px;
+}
+
+main .content .title h2 {
+    color: #41444B;
+    font-size: medium;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+main .content .advice {
+    line-height: 45px;
+    color: #41444B;
+    padding: 0px 0px 40px;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .content .line-and-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content .line-and-shape .line-1 {
+    background-color: #41444B;
+    border: 1px solid #41444B;
+    width: 100px;
+    bottom: 10px;
+}
+
+main .content .line-and-shape .shape {
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+main .content .line-and-shape .line-2 {
+    background-color: #41444B;
+    border: 1px solid #41444B;
+    width: 100px;
+    bottom: 10px;
+}
+
+main button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    background-color: #DFD8C8;
+    cursor: pointer;
+
+}
+
+main button:hover {
+    transform: rotate(360deg) scale(1.2);
+    box-shadow: 0 0 20px 5px #DFD8C8;
+}
+
+main button i {
+    height: auto;
+    font-size: 25px;
+}
+
+footer {
+    margin-top: 3%;
+    color: #DFD8C8;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
