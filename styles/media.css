@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+    
+    header h1 {
+        font-size: 50px;
+    }
+
+    main .content {
+        width: 90%;
+        height: auto;
+        margin: 40px auto;
+    }
+
+    main .content .advice {
+        font-size: 200%;
+    }
+
+    footer {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    header {
+        padding: auto;
+    }
+    
+    header h1 {
+        font-size: 45px;
+    }
+
+    main .content {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 410px) {
+    
+    header h1 {
+        font-size: 35px;
+    }
+
+    main .content {
+        margin: 15px auto 20px;
+    }
+
+    footer {
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    header h1 {
+        font-size: 35px;
+    }
+
+    main .content {
+        margin: 0px auto 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    header h1 {
+        font-size: 29px;
+    }
+
+    main .content {
+        margin: 0px auto 20px;
+    }
+}

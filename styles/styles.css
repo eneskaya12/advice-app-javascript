@@ -95,7 +95,6 @@ main button {
     transition: all 0.5s ease-in-out;
     background-color: #DFD8C8;
     cursor: pointer;
-
 }
 
 main button:hover {
