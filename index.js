@@ -2,9 +2,6 @@ const advice = document.querySelector("#advice");
 const title = document.querySelector("#title");
 const titleHeader = document.createElement("h2");
 
-// For showing an advice when refresh the site.
-newAdvice();
-
 // Using fetch API with async/await for getting data from url.
 async function newAdvice(){ 
 
@@ -21,6 +18,9 @@ function showAdvice(data){
     titleHeader.innerHTML = `ADVICE ♦ ${data.slip.id}`;
     title.appendChild(titleHeader);
 }
+
+// For showing an advice when refresh the site.
+newAdvice();
 
 // Adding addEventListener to the button for running newAdvice() function.
 const adviceButton = document.querySelector("#btn");  
